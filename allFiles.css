@@ -1,14 +1,81 @@
-h1 {
+html {
+    background-color: cadetblue;
     text-align: center;
+}
+
+body {
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: black;
+    border-width: 2px;
+    border-style: solid;
 }
 
 nav li {
     display: block;
     float: left;
     width: 16.66%;
- }
+}
  
- nav a {
+aside {
     display: block;
- }
+    float:left;
+    width: 30.5%;
+    height: 100%;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: black;
+}
+
+aside.nintendo, aside.microsoft {
+    float: right;
+}
+
+section {
+    display: block;
+    float: right;
+    width: 68.5%;
+    height: 100%;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: black;
+}
+
+section div {
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    padding: 5px;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: black;
+    margin: 2% 0 2% 0;
+}
+
+img {
+    width: 90%;
+    height: auto;
+}
  
+hr.navBar {
+    border: none;
+    height: 3px;
+    background-color: black;
+}
+
+.popularity {
+    display: block;
+    float: left;
+    width: fit-content;
+    border-width: 0.2em 0.1em 0.2em 0.1em;
+    border-color: black;
+    border-style: solid;
+}
+
+footer {
+    display: block;
+    float: none;
+    text-align: left;
+    padding: 1% 1% 1% 1%;
+}
