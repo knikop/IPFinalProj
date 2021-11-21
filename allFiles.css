@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+}
+
+nav li {
+    display: block;
+    float: left;
+    width: 16.66%;
+ }
+ 
+ nav a {
+    display: block;
+ }
+ 
